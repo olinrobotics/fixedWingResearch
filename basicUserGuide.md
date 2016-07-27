@@ -1,14 +1,28 @@
 # Guide to Not Crashing Drones
+Flight mode parameters (the weird words in all caps) can be found under the top CONFIG/TUNING tab, and then under "Advanced Params" in the sidebar.
+
 ## Transmitter & Mission Planner Setup
 **It is critical that you follow this correctly, otherwise control surfaces could reverse in different flight modes**
 
 - link: [Servo and Transmitter Configuration](http://ardupilot.org/plane/docs/reversing-servos-and-setting-normalelevon-mode.html)
 
-## Flight Mode Parameters
-##### Loiter
+## Flight Mode Setup
+### Loiter
+[http://ardupilot.org/plane/docs/loiter-mode.html](http://ardupilot.org/plane/docs/loiter-mode.html)
 
-## Sensor Parameters
-##### Airspeed Sensor
+This mode starts the plane circling around the point where loiter mode was engaged.
+
+1. WP_LOITER_RAD
+2. NAV_ROLL_CD
+3. NAVL1_PERIOD
+4. Altitude?
+
+### FBWA
+### RTL
+### AUTO
+
+## Sensor Setup
+### Airspeed Sensor
 
 ## Failsafe
 http://ardupilot.org/plane/docs/apms-failsafe-function.html
