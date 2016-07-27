@@ -11,6 +11,7 @@
 
 ## Failsafe
 http://ardupilot.org/plane/docs/apms-failsafe-function.html
+
 1. Set FS_GCS_ENABL to 1 to enable it.
 2. Connect to the Mission Planner via telemetry. Verify on the bottom right corner of the HUD that you are “flying” in a non auto mode (Manual, Stabilize, FBW are ok).
 3. Unplug one of the telemetry radios. After a few minutes power off your autopilot. (Remember the autopilot will not go into failsafe until FS_LONG_TIMEOUT seconds of MAVlink inactivity have passed).
