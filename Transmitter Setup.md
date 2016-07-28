@@ -1,4 +1,6 @@
 # Transmitter Setup
+This configures the DX18 transmitter to allow 6 different flight mode options using the E and F switches (in the top right corner). Check the flight modes in Mission Planner under the INITIAL SETUP tab on top and "Mandatory Hardware"->"Flight Modes" in the sidebar.
+
 # Table of Contents
 1. [DX18](#DX18)
   * [Assign Channels](#Assign Channels)
