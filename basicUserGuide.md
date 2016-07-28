@@ -1,5 +1,11 @@
 # Guide to Not Crashing Drones
-Flight mode parameters (the weird words in all caps) can be found under the top CONFIG/TUNING tab, and then under "Advanced Params" in the sidebar.
+## Some Basic Knowledge
+- **What is Mission Planner? What is a transmitter?**
+ Mission Planner is the software we use to monitor sensors and perform autonomous tasks and flight modes with the plane. [More info here](http://ardupilot.org/planner/docs/mission-planner-overview.html). A transmitter is that cool thing with joysticks that we use to control the planes manually. **We highly recommend that you practice with a transmitter and simulator first before flying any actual planes.**
+- **Control Surfaces**
+ These are the things that control the plane. They are called the ailerons, elevator, and rudder, which control roll, pitch, and raw, respectively. Roll, pitch, and yaw are rotation about the x, y, and z axis. [Here's a diagram.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Yaw_Axis_Corrected.svg/2000px-Yaw_Axis_Corrected.svg.png)
+- **Flight mode parameters** (the weird words in all caps) 
+ These control various things about autonomous flight modes and failsafes. They can be found in Mission Planner under the top CONFIG/TUNING tab, and then under "Advanced Params" in the sidebar.
 
 ## Transmitter & Mission Planner Setup
 **It is critical that you follow this correctly, otherwise control surfaces could reverse in different flight modes**
