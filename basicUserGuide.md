@@ -1,4 +1,11 @@
 # Guide to Not Crashing Drones
+## Table of Contents
+- [Some Basic Knowledge](## Some Basic Knowledge)
+- [Transmitter & Mission Planner Setup](## Transmitter & Mission Planner Setup)
+- [Flight Mode Setup](## Flight Mode Setup)
+- [Sensor Setup](## Sensor Setup)
+- [Failsafe](## Failsafe)
+
 ## Some Basic Knowledge
 - **What is Mission Planner? What is a transmitter?**
 
