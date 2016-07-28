@@ -2,6 +2,10 @@
 ## Purpose
 To compile information and resources on flying fixed wing drones to ease the setup and research process for future researchers. For the most part, these things can be googled with varying difficulty, but we've compiled this information here for your convenience. If you want to add to the documentation, [here's a markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
+## Research Goals
+Summer 2016: Set up hardware and flight modes in fixed wing planes for future use.
+Potential projects: Long-line loiter maneuver (allows stable payload drop), map parcel B, solar powered drone
+
 ### Things you will find here:
 - **[Pre-flight Checklist](https://github.com/olinrobotics/fixedWingResearch/blob/charlievweiss-patch-1/FixedWingPilotChecklist0.2.docx)**
 
