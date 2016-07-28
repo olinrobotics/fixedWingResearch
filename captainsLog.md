@@ -4,7 +4,7 @@
 ### 27 July 2016 5:00-6:00 p.m.
 Goals: Same as earlier
 
-Test 1: Secured Bixler wings with duct tape. Flew beautiful large circles in loiter (Pilot:Jacob). Got Appr S in the air, but it wobbled a bunch and loitered very unstably. Pilot (Charlie) lost control near the end, but landed without damaging the plane. Freakin' nailed the land, actually. Turns out one of the rubber bands holding the wings on snapped, so the wings were coming off in flight.
+Test 1: Secured Bixler wings with duct tape. Flew beautiful large circles in loiter (Pilot:Jacob). Got Appr S in the air, but it wobbled a bunch and loitered very unstably. Pilot (Charlie) lost control near the end, but landed without damaging the plane. Freakin' nailed the land, actually. Turns out one of the rubber bands holding the wings on snapped, so the wings were coming off in flight. **Note: add wing security check to pre-flight checklist**
 
 Test 2: Secured Appr S wings with duct tape (shh). Flew beautiful circles below the Bixler (Bixler 80m, Appr S 70m), tighter and faster. Both landed beautifully.
 
