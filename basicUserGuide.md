@@ -3,7 +3,12 @@
 - [Some Basic Knowledge](## Some Basic Knowledge)
 - [Transmitter & Mission Planner Setup](## Transmitter & Mission Planner Setup)
 - [Flight Mode Setup](## Flight Mode Setup)
+  - [Loiter](### Loiter)
+  - [FBWA](### FBWA)
+  - [RTL](### RTL)
+  - [AUTO](### AUTO)
 - [Sensor Setup](## Sensor Setup)
+  - [Airspeed Sensor](### Airspeed Sensor)
 - [Failsafe](## Failsafe)
 
 ## Some Basic Knowledge
