@@ -1,16 +1,17 @@
 # Guide to Not Crashing Drones
 ## Table of Contents
-- [Some Basic Knowledge](## Some Basic Knowledge)
-- [Transmitter & Mission Planner Setup](## Transmitter & Mission Planner Setup)
-- [Flight Mode Setup](## Flight Mode Setup)
-  - [Loiter](### Loiter)
-  - [FBWA](### FBWA)
-  - [RTL](### RTL)
-  - [AUTO](### AUTO)
-- [Sensor Setup](## Sensor Setup)
-  - [Airspeed Sensor](### Airspeed Sensor)
-- [Failsafe](## Failsafe)
+- [Some Basic Knowledge](#Some Basic Knowledge)
+- [Transmitter & Mission Planner Setup](#Transmitter & Mission Planner Setup)
+- [Flight Mode Setup](#Flight Mode Setup)
+  - [Loiter](#Loiter)
+  - [FBWA](#FBWA)
+  - [RTL](#RTL)
+  - [AUTO](#AUTO)
+- [Sensor Setup](#Sensor Setup)
+  - [Airspeed Sensor](#Airspeed Sensor)
+- [Failsafe](#Failsafe)
 
+<div id='Some Basic Knowledge'/>
 ## Some Basic Knowledge
 - **What is Mission Planner? What is a transmitter?**
 
@@ -22,12 +23,15 @@
 
  These control various things about autonomous flight modes and failsafes. They can be found in Mission Planner under the top CONFIG/TUNING tab, and then under "Advanced Params" in the sidebar.
 
+<div id='Transmitter & Mission Planner Setup'/>
 ## Transmitter & Mission Planner Setup
 **It is critical that you follow this correctly, otherwise control surfaces could reverse in different flight modes**
 
 - link: [Servo and Transmitter Configuration](http://ardupilot.org/plane/docs/reversing-servos-and-setting-normalelevon-mode.html)
 
+<div id='Flight Mode Setup'/>
 ## Flight Mode Setup
+<div id='Loiter'/>
 ### Loiter
 [http://ardupilot.org/plane/docs/loiter-mode.html](http://ardupilot.org/plane/docs/loiter-mode.html)
 
@@ -38,13 +42,19 @@ This mode starts the plane circling around the point where loiter mode was engag
 3. NAVL1_PERIOD
 4. Altitude?
 
+<div id='FBWA'/>
 ### FBWA
+<div id='RTL'/>
 ### RTL
+<div id='AUTO'/>
 ### AUTO
 
+<div id='Sensor Setup'/>
 ## Sensor Setup
+<div id='Airspeed Sensor'/>
 ### Airspeed Sensor
 
+<div id='Failsafe'/>
 ## Failsafe
 http://ardupilot.org/plane/docs/apms-failsafe-function.html
 
