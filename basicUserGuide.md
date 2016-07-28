@@ -2,6 +2,8 @@
 ## Table of Contents
 - [Some Basic Knowledge](#Some Basic Knowledge)
 - [Transmitter & Mission Planner Setup](#Transmitter & Mission Planner Setup)
+- [Binding](#Binding)
+- [Servo Testing](#Servo Testing)
 - [Flight Mode Setup](#Flight Mode Setup)
   - [Loiter](#Loiter)
   - [FBWA](#FBWA)
@@ -26,6 +28,12 @@
 - **Flight mode parameters** (the weird words in all caps) 
 
  These control various things about autonomous flight modes and failsafes. They can be found in Mission Planner under the top CONFIG/TUNING tab, and then under "Advanced Params" in the sidebar.
+
+<div id='Binding'/>
+## Binding
+
+<div id='Servo Testing'/>
+## Servo Testing
 
 <div id='Transmitter & Mission Planner Setup'/>
 ## Transmitter & Mission Planner Setup
