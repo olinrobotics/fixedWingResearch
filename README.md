@@ -22,9 +22,14 @@ Potential projects: Long-line loiter maneuver (allows stable payload drop), map 
  This is a record of our flight tests starting Summer 2016.
 
 ## Fleet
-- **Bixler** (equipped with Pixhawk, GPS, and airspeed sensor)
-- **Apprentice S** (equipped with Pixhawk, GPS, and airspeed sensor)
-- **Apprentice** (equipped with Pixhawk, GPS, and airspeed sensor)
+- **Bixler** 
+  - equipped with Pixhawk, GPS, and airspeed sensor
+  - Bound to SKY CRANE transmitter (DX #2)
+- **Apprentice S** 
+  - equipped with Pixhawk, GPS, and airspeed sensor
+  - Bound to ??
+- **Apprentice** 
+  - equipped with Pixhawk, GPS, and airspeed sensor
 - **Mini Apprentice S** (great intermediate trainer plane)
 - **Sport Cubs (2)** (great beginner planes. You'll notice they're pretty beat up)
 
