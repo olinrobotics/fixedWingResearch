@@ -1,4 +1,4 @@
-# Guide to Not Crashing Drones
+# Guide to Flying Cool Planes
 ## Table of Contents
 - [Some Basic Knowledge](#Some Basic Knowledge)
 - [Transmitter & Mission Planner Setup](#Transmitter & Mission Planner Setup)
