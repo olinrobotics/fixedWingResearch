@@ -19,6 +19,10 @@
 - **Control Surfaces**
 
  These are the things that control the plane's movement or attitude. They are called the ailerons, elevator, and rudder, which control roll, pitch, and yaw, respectively. Roll, pitch, and yaw are rotation about the x, y, and z axes. [Here's a diagram.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Yaw_Axis_Corrected.svg/2000px-Yaw_Axis_Corrected.svg.png)
+- **What is 'trim'?** (You'll see this mentioned in Transmitter Setup)
+
+  First, you should know that the servos controlling the control surfaces have a range of PWM signals they respond to. For example, the minimum PWM signal for the elevator could point it all the way down, and the max could point it all the way up. Trim is a way of adjusting the placement of this range so the middle value is in the correct place. However, this also adjusts the placement of the min amd max values, which limits the range of the control surface (Ex: If the min PWM signal is raised, the elevator can't point all the way down). So, if the control surface is off by a little bit, go ahead and adjust it with trim. If it has a major offset (like the elevator is pointing down when it should be in the middle), adjust the servo connection manually. (As a side note, when setting the trim in Transmitter Setup, it's changing the PWM signals for non-control surface channels, giving the channels involved 6 options instead of 9. Trim's purpose is less straightforward).
+
 - **Flight mode parameters** (the weird words in all caps) 
 
  These control various things about autonomous flight modes and failsafes. They can be found in Mission Planner under the top CONFIG/TUNING tab, and then under "Advanced Params" in the sidebar.
