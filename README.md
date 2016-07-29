@@ -17,9 +17,14 @@ Potential projects: Long-line loiter maneuver (allows stable payload drop), map 
 - **[Basic User Guide](https://github.com/olinrobotics/fixedWingResearch/blob/charlievweiss-patch-1/basicUserGuide.md)**
 
  Here we've compiled a bunch of information on flight mode and failsafe parameters. Please refer here if you have any questions or weird bugs, because there are a lot of random things that affect what you want to do.
+ 
 - **[Captain's Log](https://github.com/olinrobotics/fixedWingResearch/blob/charlievweiss-patch-1/captainsLog.md)**
 
  This is a record of our flight tests starting Summer 2016.
+
+- **[Flight Modes](https://github.com/olinrobotics/fixedWingResearch/blob/master/Flight%20Modes.md)**
+
+ Description of flight modes official and unofficial 
 
 ## Fleet
 - **Bixler** 
