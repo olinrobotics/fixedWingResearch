@@ -1,5 +1,5 @@
 # Flight Modes
-Official and unofficial descriptions of pixhawk flight modes
+This is an archive of the common pixhawk flight modes.  Use this in case ardupilot somehow gets deleted.
 
 # Table of Contents
   * [Fly By Wire_A (FBWA)](#FBWA)
