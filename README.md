@@ -23,13 +23,15 @@ Potential projects: Long-line loiter maneuver (allows stable payload drop), map 
 
 ## Fleet
 - **Bixler** 
-  - equipped with Pixhawk, GPS, and airspeed sensor
-  - Bound to SKY CRANE transmitter (DX #2)
+  - Equipped with Pixhawk, GPS, and airspeed sensor
+  - Bound to SKY CRANE transmitter (DX #2), Violet
 - **Apprentice S** 
-  - equipped with Pixhawk, GPS, and airspeed sensor
-  - Bound to ??
+  - Equipped with Pixhawk, GPS, and airspeed sensor
+  - Bound to SKY CRANE transmitter (DX #2)
 - **Apprentice** 
-  - equipped with Pixhawk, GPS, and airspeed sensor
+  - Equipped with Pixhawk, GPS, and airspeed sensor
+  - Bound to SKY CRANE transmitter (DX #2)
+  - Autonomous modes not configured.  Don't use autonomous modes.
 - **Mini Apprentice S** (great intermediate trainer plane)
 - **Sport Cubs (2)** (great beginner planes. You'll notice they're pretty beat up)
 
