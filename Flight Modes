@@ -6,7 +6,7 @@
   * [Loiter](#Loiter)
   * [Circle](#Circle)
   * [Return to Launch (RTL)](#RTL)
-  * [Waypoints](#Waypoints)
+  * [Auto](#Auto)
   * [Landing](#Landing)
   
 <div id='FBWA'/>
@@ -60,12 +60,48 @@ Consider the use of Rally Points to avoid returning directly to your arming poin
 
 <div id='Circle'/>
 ## Circle
+http://ardupilot.org/plane/docs/circle-mode.html#circle-mode
 
+Circle mode is similar to LOITER, but doesn’t attempt to hold position. This is primarily meant as a failsafe mode and is the mode that the aircraft will enter by default for 20 seconds when a failsafe event occurs, before switching to RTL.
+
+Circle mode is deliberately a very conservative mode, and doesn’t rely on GPS positioning as it is used when GPS fails. It will do a large circle, The bank angle is set to the LIM_ROLL_CD divided by 3, to try to ensure the plane remains stable even without GPS velocity data for accelerometer correction. That is why the circle radius is so large.
+
+Circle mode uses throttle and pitch control to maintain altitude at the altitude where it started circling.
 <div id='RTL'/>
+
 ## Return to Launch (RTL)
+http://ardupilot.org/plane/docs/rtl-mode.html#rtl-mode
 
-<div id='Waypoints'/>
-## Waypoints
+In RTL mode the plane will return to its home location (the point where the plane armed - assuming it had GPS lock) and loiter there until given alternate intructions (or it runs out of fuel!). As with AUTO mode you can also “nudge” the aircraft manually in this mode using stick mixing. The target altitude for RTL mode is set using the ALT_HOLD_RTL parameter in centimeters.
 
-<div id='Landing'/>
-## Landing
+Alternatively, you may configure the plane to return to a Rally Point, rather than the home location.
+
+```
+Warning
+
+“Home” position is always supposed to be your Plane’s actual GPS takeoff location:
+
+It is very important to acquire GPS lock before arming in order for RTL, Loiter, Auto or any GPS dependent mode to work properly.
+For Plane the home position is initially established at the time the plane acquires its GPS lock. It is then continuously updated as long as the autopilot is disarmed.
+This means if you execute an RTL in Plane, it will return to the location where it was when it was armed - assuming it had acquired GPS lock.
+Consider the use of Rally Points to avoid returning directly to your arming point on RTL
+```
+
+<div id='Auto'/>
+## Auto
+http://ardupilot.org/plane/docs/auto-mode.html#auto-mode
+
+In AUTO mode Plane will follow a mission (a set of GPS waypoints and other commands) set by your ground station. When entering AUTO mode Plane will continue from whatever mission item it was last doing, unless you have reset the mission.
+
+When in AUTO Plane will by default allow the pilot to influence the flight of the plane by using “stick mixing”, which allows for aileron, elevator and rudder input to steer the plane in a way that can override the autopilot control. Whether this is enabled is determined by the STICK_MIXING option. By default stick mixing behaves the same as FLY BY WIRE_A (FBWA) mode.
+
+```
+Warning
+
+“Home” position is always supposed to be your Plane’s actual GPS takeoff location:
+
+It is very important to acquire GPS lock before arming in order for RTL, Loiter, Auto or any GPS dependent mode to work properly.
+For Plane the home position is initially established at the time the plane acquires its GPS lock. It is then continuously updated as long as the autopilot is disarmed.
+This means if you execute an RTL in Plane, it will return to the location where it was when it was armed - assuming it had acquired GPS lock.
+Consider the use of Rally Points to avoid returning directly to your arming point on RTL
+```
