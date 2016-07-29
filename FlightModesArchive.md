@@ -8,7 +8,6 @@ This is an archive of the common pixhawk flight modes.  Use this in case ardupil
   * [Circle](#Circle)
   * [Return to Launch (RTL)](#RTL)
   * [Auto](#Auto)
-  * [Landing](#Landing)
   
 <div id='FBWA'/>
 ## Fly By Wire_A (FBWA)
