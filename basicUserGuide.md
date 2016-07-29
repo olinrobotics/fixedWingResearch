@@ -10,7 +10,7 @@
   - [Loiter](#Loiter)
   - [Circle](#Circle)
   - [Return to Launch (RTL)](#RTL)
-  - [Auto](#Auto)
+  - [Auto](#AUTO)
 
 - [Sensor Setup](#Sensor Setup)
   - [Airspeed Sensor](#Airspeed Sensor)
@@ -46,21 +46,35 @@
 
 <div id='Flight Mode Setup'/>
 ## Flight Mode Setup
+
+<div id='FBWA'/>
+### Fly By Wire_A (FBWA)
+[http://ardupilot.org/plane/docs/fbwa-mode.html](http://ardupilot.org/plane/docs/fbwa-mode.html)  
+Plane holds the roll and pitch specified by the control sticks. So if you hold the aileron stick hard right then the plane will hold its pitch level and will bank right by the angle specified in the LIM_ROLL_CD option (in centidegrees).  Note that holding level pitch does not mean the plane will hold altitude. If you want Plane to take care of holding altitude then you should look at the FBWB mode.
+
+<div id='FBWB'/>
+### Fly By Wire_A (FBWB) **UNTESTED**
+[http://ardupilot.org/plane/docs/fbwb-mode.html#fbwb-mode](http://ardupilot.org/plane/docs/fbwb-mode.html#fbwb-mode)
+The FBWB mode is similar to FLY BY WIRE_A (FBWA), but Plane will try to hold altitude as well. Roll control is the same as FBWA, and altitude is controlled using the elevator. The target airspeed is controlled using the throttle.
+
 <div id='Loiter'/>
 ### Loiter
 [http://ardupilot.org/plane/docs/loiter-mode.html](http://ardupilot.org/plane/docs/loiter-mode.html)
 
-This mode starts the plane circling around the point where loiter mode was engaged.
+In LOITER mode the plane will circle around the point where you started the loiter, holding altitude at the altitude that you entered loiter in.
 
 1. WP_LOITER_RAD
 2. NAV_ROLL_CD
 3. NAVL1_PERIOD
 4. Altitude?
 
-<div id='FBWA'/>
-### FBWA
+<div id='Circle'/>
+### Circle
+Circle mode is similar to LOITER, but doesn’t attempt to hold position. Circle mode is deliberately a very conservative mode, and doesn’t rely on GPS positioning as it is used when GPS fails.  If you want the plane to fly in circles, use [loiter](#Loiter) mode.
+
 <div id='RTL'/>
 ### RTL
+
 <div id='AUTO'/>
 ### AUTO
 
