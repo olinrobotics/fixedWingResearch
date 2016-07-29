@@ -5,7 +5,7 @@ To compile information and resources on flying fixed wing drones to ease the set
 ## Research Goals
 Summer 2016: Set up hardware and flight modes in fixed wing planes for future use.
 
-Potential projects: Long-line loiter maneuver (allows stable payload drop), map parcel B, solar powered drone
+Potential projects: Long-line loiter maneuver (allows stable payload drop), map parcel B, solar powered drone, autonomous water sampling
 
 ### Things you will find here:
 - **[Pre-flight Checklist](https://github.com/olinrobotics/fixedWingResearch/blob/charlievweiss-patch-1/FixedWingPilotChecklist0.2.docx)**
