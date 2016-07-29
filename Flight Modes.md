@@ -1,4 +1,5 @@
-# Autonomous flying with pixhawk
+# Flight Modes
+Official and unofficial descriptions of pixhawk flight modes
 
 # Table of Contents
   * [Fly By Wire_A (FBWA)](#FBWA)
