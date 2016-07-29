@@ -25,7 +25,11 @@ Potential projects: Long-line loiter maneuver (allows stable payload drop), map 
 - **[Flight Mode Archive](https://github.com/olinrobotics/fixedWingResearch/blob/master/captainsLog.md)**
 
  Official ardupilot flight mode documentation
+ 
+- **[Learn to Fly](https://github.com/olinrobotics/fixedWingResearch/blob/master/Learn%20To%20Fly.md)**
 
+ Start here if you're learning to fly fixed wing planes
+ 
 ## Fleet
 - **Bixler** 
   - Equipped with Pixhawk, GPS, and airspeed sensor
