@@ -22,9 +22,9 @@ Potential projects: Long-line loiter maneuver (allows stable payload drop), map 
 
  This is a record of our flight tests starting Summer 2016.
 
-- **[Flight Modes](https://github.com/olinrobotics/fixedWingResearch/blob/master/Flight%20Modes.md)**
+- **[Flight Mode Archive](https://github.com/olinrobotics/fixedWingResearch/blob/master/Flight%20Modes.md)**
 
- Description of flight modes official and unofficial 
+ Official ardupilot flight mode documentation
 
 ## Fleet
 - **Bixler** 
