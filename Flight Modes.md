@@ -22,7 +22,7 @@ In FBWA mode throttle is manually controlled, but is constrained by the THR_MIN 
 In FBWA mode the rudder is under both manual control, plus whatever rudder mixing for roll you have configured. Thus you can use the rudder for ground steering, and still have it used for automatically coordinating turns.
 
 <div id='FBWB'/>
-## Fly By Wire_B (FBWB)
+## Fly By Wire_B (FBWB) *UNTESTED*
 http://ardupilot.org/plane/docs/fbwb-mode.html#fbwb-mode
 
 The FBWB mode is similar to FLY BY WIRE_A (FBWA), but Plane will try to hold altitude as well. Roll control is the same as FBWA, and altitude is controlled using the elevator. The target airspeed is controlled using the throttle.
