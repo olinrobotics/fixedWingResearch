@@ -4,11 +4,15 @@ Summer Fixed Wing Research 2017
 ### Contracts:
 
 + #### SA3
-   Fixed Wing in-air avoidance
+   Fixed wing in air avoidance
    
    
-+ #### Impact
-   Support for 
++ #### On Demand
+   Targeted waterbombing in drone field
+   
++ #### Personal Research 
+    SAR Mission
+        Precision payload dropping on automated target
    
    
    
@@ -19,5 +23,9 @@ Summer Fixed Wing Research 2017
 
 + #### Fun Cub XL
   + Payload Dropper
+  
++ #### SkyHunter
+  +New Payload Dropper
+  +Long Range Setup
 
 
