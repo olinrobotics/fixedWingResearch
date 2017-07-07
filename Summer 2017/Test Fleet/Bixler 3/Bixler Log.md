@@ -50,8 +50,26 @@ the landing strip elsewhere.
 
 -------
 
+*Power System Upgrade*  | 6/19/17
+======
 
-Template
+Details:
+
+I flew the Bixler once previously and got hit with a wicked down draft. Even flying nose up full throttle I was blown down into the trees- after this, I decided that I needed to upgrade the power system. 
+
+![small power system](https://github.com/olinrobotics/fixedWingResearch/blob/master/Summer%202017/Test%20Fleet/Bixler%203/9X6%20Mod/original.jpg)
+
+
+I searched through Professor Bennet's motor supply until I found a burshless motor close enough to what I needed- an 920kv RCTimer motor, initially intended for a multirotor. I paired it with a 8x6 prop and a 30amp esc. 
+
+Finally, I cut out the original motor pod and laser cut a mount out of two 1/4in pieces of plywood.
+
+
+![large power system](https://github.com/olinrobotics/fixedWingResearch/blob/master/Summer%202017/Test%20Fleet/Bixler%203/9X6%20Mod/8x6.jpg)
+
+
+*Template*
+=====
 
 
 *Flight Name*  | Date
